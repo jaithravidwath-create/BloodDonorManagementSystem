@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.idea/
+.vscode/
+.DS_Store
+
+# runtime data (may contain personal donor info)
+data/*.db
+exports/*.csv
+!data/.gitkeep
+!exports/.gitkeep
